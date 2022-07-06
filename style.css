@@ -227,3 +227,35 @@ html{
     cursor: pointer;
 
 }
+
+/* Skill section*/
+#skill{
+    display: flex;
+    flex-direction: column;
+    background-color: #000000dc;
+}
+#skill h1{
+   margin: 60px; 
+}
+.columns{
+    display: grid;
+    grid-template-columns: auto auto;
+    padding-left: 50px; 
+}
+.box{
+    height: 200px;
+    width: 500px;
+    background-color: rgb(255, 255, 255, 0.1);
+    border-radius: 20px;
+    margin: 10px;
+    padding: 20px;
+}
+.box h2{
+    color: yellowgreen;
+    font-size: 2rem;
+    margin-bottom: 40px;
+}
+.box p{
+    color: white;
+    font-size: 1.1rem;
+}
